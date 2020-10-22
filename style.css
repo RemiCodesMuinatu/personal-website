@@ -10,7 +10,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg");
 
   /* Set a specific height */
-  height: 80%;
+  height: 75%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -18,6 +18,47 @@
   background-size: cover;
   position: relative;
 }
+
+.hero-image-project {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 75%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image-about {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/IMG_0103.jpg");
+
+  /* Set a specific height */
+  height: 75%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image-contact {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/mae-mu-1APtYqzNajA-unsplash copy.jpg");
+
+  /* Set a specific height */
+  height: 75%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -29,42 +70,58 @@
   color: white;
 }
 
-/* CARDS */
 
-.wrimagecard{	
-	margin-top: 50px;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    position: relative;
-    background: #fff;
-    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
-    border-radius: 4px;
-    transition: all 0.3s ease;
+/* CARDS */
+.container{
+  margin-top: 100px;
+  color: black;
+  height: fit-content;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  background: #fff;
+  box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+
 }
-.wrimagecard .fa{
-	position: relative;
-    font-size: 70px;
+
+a:hover {
+text-decoration: none;
+
 }
-.wrimagecard-topimage_header{
-padding: 20px;
+
+/* FORM */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-a.wrimagecard:hover, .wrimagecard-topimage:hover {
-    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #2c0dda;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.wrimagecard-topimage a {
-    width: 100%;
-    height: 100%;
-    display: block;
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #d37f20;
 }
-.wrimagecard-topimage_title {
-    padding: 20px 24px;
-    height: 80px;
-    padding-bottom: 0.75rem;
-    position: relative;
-}
-.wrimagecard-topimage a {
-    border-bottom: none;
-    text-decoration: none;
-    color: #525c65;
-    transition: color 0.3s ease;
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
